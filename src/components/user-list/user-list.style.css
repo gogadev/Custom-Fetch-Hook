@@ -1,0 +1,52 @@
+.user-list {
+  width: 80vw;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.card {
+  border: 2px solid lightgrey;
+  margin: 1rem auto;
+  width: 95%;
+  height: 150px;
+}
+
+.name {
+  background: rgb(145, 144, 144);
+  padding: 0.2rem;
+  letter-spacing: 2px;
+  font-weight: 100;
+}
+
+.email {
+  margin: 2.1rem auto;
+  border: 1px dotted grey;
+  border-right: none;
+  border-left: none;
+  padding: 0.2rem;
+  letter-spacing: 1px;
+}
+
+.company {
+  background: #e6e5e5;
+  border-top: 1px solid grey;
+  font-weight: 200;
+  padding: 0.1rem;
+}
+
+.spinner-img {
+  transform: translateX(25rem);
+}
+
+@media only screen and (max-width: 800px) {
+  .user-list {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .card {
+    width: 100%;
+  }
+}

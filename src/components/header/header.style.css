@@ -1,0 +1,26 @@
+header {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+.title {
+  width: 80vw;
+  letter-spacing: 2px;
+  background: grey;
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 8px;
+  outline: 1px dotted lightgrey;
+  outline-offset: -12px;
+  padding: 0.8rem;
+  color: rgb(46, 46, 46);
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 600px) {
+  .users {
+    width: 80%;
+  }
+}
